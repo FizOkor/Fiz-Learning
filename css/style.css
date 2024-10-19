@@ -164,6 +164,13 @@ button.navbar-toggle{
 
 
 /*** Header carousel ***/
+.header-carousel .owl-item{
+    height: 100vh;
+    display: flex;
+    align-items: center; /* To vertically center content */
+    justify-content: center; /* To horizontally center content */
+    
+}
 @media (max-width: 48rem) {
     .header-carousel .owl-carousel-item {
         position: relative;
